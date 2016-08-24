@@ -205,7 +205,7 @@ $errors = $model->getErrors();
 throw new JsonHttpException(400, $errors);
 ```
 
-## Perticipation and development
+## Participation and development
 
 Hope you will find this set of tools helpful.
 
