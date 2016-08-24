@@ -1,0 +1,29 @@
+{
+  "name": "the-real-start/yii2-oauth2-server-tools",
+  "description": "Set of simple tools for ",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "keywords": ["yii", "oauth2-server", "tools", "lib"],
+  "homepage": "https://github.com/TheRealStart/yii2-oauth2-server-tools",
+  "support": {
+    "email": "alegz@therealstart.com",
+    "source": "https://github.com/TheRealStart/yii2-oauth2-server-tools"
+  },
+  "authors": [
+    {
+      "name": "Alegz",
+      "email": "alegz@therealstart.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TRS\\yii2\\oauth2server\\tools\\": "src"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": ">=2.0.6",
+    "alegz/yii2-oauth2-server": "~2.2",
+    "the-real-start/yii2-jsend-response": "^0.1.4"
+  }
+}
