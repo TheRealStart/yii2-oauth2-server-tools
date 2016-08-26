@@ -23,7 +23,7 @@ class AccessRule extends \yii\filters\AccessRule
      * @param Request $request
      * @return boolean|null true if the user is allowed, false if the user is denied, null if the rule does not apply to the user
      */
-    public function allows(Action $action, User $user, Request $request)
+    public function allows($action, $user, $request)
     {
         $parentResult = parent::allows($action, $user, $request);
 
